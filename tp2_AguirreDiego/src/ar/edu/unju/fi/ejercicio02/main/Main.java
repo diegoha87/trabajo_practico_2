@@ -179,8 +179,9 @@ public class Main {
 					System.out.println("---------------------------------");
 				}
 				else {
+					System.out.println("----------Lista de efemérides----------");
 					for(Efemeride f: listaEfemeride) {
-						System.out.println("----------Lista de efemérides----------");
+						
 						System.out.println("---------------------------------------");
 						System.out.println("Código: "+f.getCodigo());
 						System.out.println("Més: "+f.getMes());
